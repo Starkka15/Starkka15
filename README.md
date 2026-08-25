@@ -39,7 +39,7 @@ Multi-store game launcher for the Steam Deck — Epic, GOG, Amazon, itch.io, EA 
 
 | Platform | Projects |
 |---|---|
-| **webOS (HP TouchPad)** | [Moonlight](https://github.com/Starkka15/moonlight-webos) · [Nextcloud](https://github.com/Starkka15/nextcloud-webos) · [OpenTTD](https://github.com/Starkka15/OpenTTD-WebOS-Port) · [Prism browser](https://github.com/Starkka15/prism-browser) · [comic reader](https://github.com/Starkka15/comic-reader-webos) · [Cockpit](https://github.com/Starkka15/cockpit-webos) · [SDL2 shim](https://github.com/Starkka15/sdl2-compat-webos) |
+| **webOS (HP TouchPad)** | [Moonlight](https://github.com/Starkka15/moonlight-webos) · [Nextcloud](https://github.com/Starkka15/nextcloud-webos) · [OpenTTD](https://github.com/Starkka15/OpenTTD-WebOS-Port) · [comic reader](https://github.com/Starkka15/comic-reader-webos) · [Cockpit](https://github.com/Starkka15/cockpit-webos) · [SDL2 shim](https://github.com/Starkka15/sdl2-compat-webos) |
 | **Windows 10 Mobile** | [Revenant](https://github.com/Starkka15/revenant-browser-w10m) (modern WebKit engine) · [Konnect](https://github.com/Starkka15/konnect-uwp) (KDE Connect) · [Nextcloud](https://github.com/Starkka15/nextcloud-uwp) · [NokiDrome](https://github.com/Starkka15/NokiDrome) · [Seeneva](https://github.com/Starkka15/Seeneva.UWP) |
 | **Linux / Steam Deck** | [Optima](https://github.com/Starkka15/Optima) (Ubisoft client) · [Maxima](https://github.com/Starkka15/Maxima) (EA client) · [webOS PDK runner](https://github.com/Starkka15/webos-pdk-runner) (run ARM webOS games on x86) |
 
