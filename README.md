@@ -6,7 +6,7 @@ I build and port software for devices the industry gave up on.
 
 Most of my work targets platforms that stopped getting official support years ago: the HP TouchPad (webOS, 2011), Windows 10 Mobile Lumias, Windows Mobile PDAs, and other "dead" hardware that still works perfectly fine. These devices aren't e-waste — they're capable machines that just need someone willing to write software for them.
 
-That means porting modern engines to old OSes (a current WebKit on a 2015 Lumia), writing new clients for modern services (Nextcloud, KDE Connect, Navidrome on platforms that never had them), and building the tooling to make development on these systems possible at all.
+That means porting modern engines to old OSes (a current WebKit on a 2015 Lumia), writing new clients for modern services (Google Messages, Bluesky, Jellyfin, Nextcloud, KDE Connect, Navidrome on platforms that never had them), and building the tooling to make development on these systems possible at all.
 
 If a device still powers on, it deserves software.
 
@@ -30,7 +30,7 @@ Most of my repos carry a full [AI disclosure](https://github.com/Starkka15) expl
 ## Featured projects
 
 ### 📱 [PocketTavern](https://github.com/Starkka15/PocketTavern)
-The best source-available AI chat app for Android. SillyTavern-compatible — character cards, group chats, lorebooks — with on-device inference so your conversations can stay entirely on your phone. Also ported to [Windows 10 Mobile / UWP](https://github.com/Starkka15/PocketTavern.UWP), because a chat client is exactly the kind of app an old phone can still do well.
+The best source-available AI chat app for Android. SillyTavern-compatible — character cards, group chats, lorebooks — with on-device inference so your conversations can stay entirely on your phone. Also ported to [Windows 10 Mobile / UWP](https://github.com/Starkka15/PocketTavern.UWP) and [iOS](https://github.com/Starkka15/PocketTavern.iOS), with [CardVault](https://github.com/Starkka15/cardvault) as its character card index, because a chat client is exactly the kind of app an old phone can still do well.
 
 ### 🎮 [GameVault](https://github.com/Starkka15/GameVault)
 Multi-store game launcher for the Steam Deck — Epic, GOG, Amazon, itch.io, EA Play, and RPG Maker titles, installed and launched from Game Mode like native games. Community fork of Junk-Store, kept open and kept moving.
@@ -39,9 +39,12 @@ Multi-store game launcher for the Steam Deck — Epic, GOG, Amazon, itch.io, EA 
 
 | Platform | Projects |
 |---|---|
-| **webOS (HP TouchPad)** | [Moonlight](https://github.com/Starkka15/moonlight-webos) · [Nextcloud](https://github.com/Starkka15/nextcloud-webos) · [OpenTTD](https://github.com/Starkka15/OpenTTD-WebOS-Port) · [comic reader](https://github.com/Starkka15/comic-reader-webos) · [Cockpit](https://github.com/Starkka15/cockpit-webos) · [SDL2 shim](https://github.com/Starkka15/sdl2-compat-webos) |
-| **Windows 10 Mobile** | [Revenant](https://github.com/Starkka15/revenant-browser-w10m) (modern WebKit engine) · [Konnect](https://github.com/Starkka15/konnect-uwp) (KDE Connect) · [Nextcloud](https://github.com/Starkka15/nextcloud-uwp) · [NokiDrome](https://github.com/Starkka15/NokiDrome) · [Seeneva](https://github.com/Starkka15/Seeneva.UWP) |
-| **Linux / Steam Deck** | [Optima](https://github.com/Starkka15/Optima) (Ubisoft client) · [Maxima](https://github.com/Starkka15/Maxima) (EA client) · [webOS PDK runner](https://github.com/Starkka15/webos-pdk-runner) (run ARM webOS games on x86) |
+| **webOS apps (HP TouchPad)** | [Google Messages](https://github.com/Starkka15/gmessages-webos) (SMS + RCS in the stock Messaging app) · [TouchSky](https://github.com/Starkka15/TouchSky) (Bluesky) · [Topaz Explorer](https://github.com/Starkka15/topaz-explorer-webos) (file manager) · [Jellyfin](https://github.com/Starkka15/jellyfin-webos) · [Nextcloud](https://github.com/Starkka15/nextcloud-webos) · [Comic Reader](https://github.com/Starkka15/comic-reader-webos) (with OPDS downloads) · [Moonlight](https://github.com/Starkka15/moonlight-webos) · [Cockpit](https://github.com/Starkka15/cockpit-webos) · [Papers](https://github.com/Starkka15/papers-webos) (documents, in progress) |
+| **webOS games** | [OpenTTD](https://github.com/Starkka15/OpenTTD-WebOS-Port) · [Bos Wars](https://github.com/Starkka15/boswars-webos) · [Abuse](https://github.com/Starkka15/abuse-webos) · [Cave Story (NXEngine-evo)](https://github.com/Starkka15/nxengine-evo-webos) · [Sopwith](https://github.com/Starkka15/sdl-sopwith-webos) · [Warzone 2100](https://github.com/Starkka15/Warzone-2100-v2-for-WebOS-Touchpad) (in progress) |
+| **webOS tooling** | [SDL2 shim](https://github.com/Starkka15/sdl2-compat-webos) · [webOS PDK runner](https://github.com/Starkka15/webos-pdk-runner) and its [X11 variant](https://github.com/Starkka15/webos-pdk-runner-x11) (run ARM webOS games on x86 Linux) |
+| **Windows 10 Mobile** | [Revenant](https://github.com/Starkka15/revenant-browser-w10m) (modern WebKit engine) · [Jellyfin](https://github.com/Starkka15/Jellyfin.W10M) · [Konnect](https://github.com/Starkka15/konnect-uwp) (KDE Connect) · [Nextcloud](https://github.com/Starkka15/nextcloud-uwp) · [NokiDrome](https://github.com/Starkka15/NokiDrome) (Subsonic/Navidrome) · [Baconit](https://github.com/Starkka15/Baconit) (Reddit) · [Seeneva](https://github.com/Starkka15/Seeneva.UWP) (comics) |
+| **Windows Mobile** | [SynCE, modernized](https://github.com/Starkka15/synce-modernized) (sync Windows Mobile/CE devices with current Linux) |
+| **Linux / Steam Deck** | [Optima](https://github.com/Starkka15/Optima) (Ubisoft client) · [Maxima](https://github.com/Starkka15/Maxima) (EA client) · [PadPilot](https://github.com/Starkka15/padpilot-linux) and its [Decky plugin](https://github.com/Starkka15/padpilot-decky) (Controller Companion profiles) · [Vortex](https://github.com/Starkka15/Vortex) (mod manager, Linux port) · [Wallpaper Engine for GNOME](https://github.com/Starkka15/wallpaperengine-gnome) |
 
 ---
 
