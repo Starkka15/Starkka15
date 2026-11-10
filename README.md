@@ -1,6 +1,6 @@
 # Hey, I'm Starkka 👋
 
-I build and port software for devices the industry gave up on.
+I build and port software for devices the industry gave up on, and bring console games stuck on old hardware to the PC.
 
 ## Keeping old systems alive
 
@@ -35,16 +35,30 @@ The best source-available AI chat app for Android. SillyTavern-compatible — ch
 ### 🎮 [GameVault](https://github.com/Starkka15/GameVault)
 Multi-store game launcher for the Steam Deck — Epic, GOG, Amazon, itch.io, EA Play, and RPG Maker titles, installed and launched from Game Mode like native games. Community fork of Junk-Store, kept open and kept moving.
 
+## Console games, natively on PC
+
+Statically recompiled ports of console games that never got a PC version: the game's own code turned into a native executable, no emulator. Bring your own copy of the game; no game files are included. Each port is a starting point, and anyone is welcome to continue the work.
+
+| Game | Original platform | Runs on |
+|---|---|---|
+| [The Legend of Spyro: A New Beginning](https://github.com/Starkka15/spyro-anb-pc) | Xbox | Windows |
+| [Spyro: A Hero's Tail](https://github.com/Starkka15/spyro-aht-pc) | Xbox | Windows |
+| [The Legend of Spyro: Dawn of the Dragon](https://github.com/Starkka15/spyro-dotd-pc) | Xbox 360 | Windows |
+| [Skylanders: Spyro's Adventure](https://github.com/Starkka15/skylanders-sa-pc) | Xbox 360 | Linux / Steam Deck, Windows |
+
+[SkyPortal](https://github.com/Starkka15/SkyPortal) is the Portal of Power for the Skylanders port, as a Windows app and a Decky plugin: it passes a real Wii/PS3 portal through to the game, places figures from your own dumps on a virtual one, and dumps your figures. The Xbox 360 ports are built on my fork of the [ReXGlue SDK](https://github.com/Starkka15/rexglue-sdk), the Xbox ones on [xboxrecomp](https://github.com/Starkka15/xboxrecomp).
+
 ## The rest of the fleet
 
 | Platform | Projects |
 |---|---|
 | **webOS apps (HP TouchPad)** | [Google Messages](https://github.com/Starkka15/gmessages-webos) (SMS + RCS in the stock Messaging app) · [TouchSky](https://github.com/Starkka15/TouchSky) (Bluesky) · [Topaz Explorer](https://github.com/Starkka15/topaz-explorer-webos) (file manager) · [Jellyfin](https://github.com/Starkka15/jellyfin-webos) · [Nextcloud](https://github.com/Starkka15/nextcloud-webos) · [Comic Reader](https://github.com/Starkka15/comic-reader-webos) (with OPDS downloads) · [Moonlight](https://github.com/Starkka15/moonlight-webos) · [Cockpit](https://github.com/Starkka15/cockpit-webos) · [Papers](https://github.com/Starkka15/papers-webos) (documents, in progress) |
-| **webOS games** | [OpenTTD](https://github.com/Starkka15/OpenTTD-WebOS-Port) · [Bos Wars](https://github.com/Starkka15/boswars-webos) · [Abuse](https://github.com/Starkka15/abuse-webos) · [Cave Story (NXEngine-evo)](https://github.com/Starkka15/nxengine-evo-webos) · [Sopwith](https://github.com/Starkka15/sdl-sopwith-webos) · [Warzone 2100](https://github.com/Starkka15/Warzone-2100-v2-for-WebOS-Touchpad) (in progress) |
+| **webOS games** | [OpenTTD](https://github.com/Starkka15/OpenTTD-WebOS-Port) · [Bos Wars](https://github.com/Starkka15/boswars-webos) · [Abuse](https://github.com/Starkka15/abuse-webos) · [Cave Story (NXEngine-evo)](https://github.com/Starkka15/nxengine-evo-webos) · [Sopwith](https://github.com/Starkka15/sdl-sopwith-webos) · [Warzone 2100](https://github.com/Starkka15/Warzone-2100-v2-for-WebOS-Touchpad) |
 | **webOS tooling** | [SDL2 shim](https://github.com/Starkka15/sdl2-compat-webos) · [webOS PDK runner](https://github.com/Starkka15/webos-pdk-runner) and its [X11 variant](https://github.com/Starkka15/webos-pdk-runner-x11) (run ARM webOS games on x86 Linux) |
 | **Windows 10 Mobile** | [Revenant](https://github.com/Starkka15/revenant-browser-w10m) (modern WebKit engine) · [Jellyfin](https://github.com/Starkka15/Jellyfin.W10M) · [Konnect](https://github.com/Starkka15/konnect-uwp) (KDE Connect) · [Nextcloud](https://github.com/Starkka15/nextcloud-uwp) · [NokiDrome](https://github.com/Starkka15/NokiDrome) (Subsonic/Navidrome) · [Baconit](https://github.com/Starkka15/Baconit) (Reddit) · [Seeneva](https://github.com/Starkka15/Seeneva.UWP) (comics) |
 | **Windows Mobile** | [SynCE, modernized](https://github.com/Starkka15/synce-modernized) (sync Windows Mobile/CE devices with current Linux) |
 | **Linux / Steam Deck** | [Optima](https://github.com/Starkka15/Optima) (Ubisoft client) · [Maxima](https://github.com/Starkka15/Maxima) (EA client) · [PadPilot](https://github.com/Starkka15/padpilot-linux) and its [Decky plugin](https://github.com/Starkka15/padpilot-decky) (Controller Companion profiles) · [Vortex](https://github.com/Starkka15/Vortex) (mod manager, Linux port) · [Wallpaper Engine for GNOME](https://github.com/Starkka15/wallpaperengine-gnome) |
+| **PC games & media** | [EmergeNYC patches](https://github.com/Starkka15/emergenyc-patches) (BepInEx fixes and police/EMS enhancements) · [TV Show Organizer](https://github.com/Starkka15/tv-show-organizer) (sorts messy TV folders into a Plex/Jellyfin library) |
 
 ---
 
